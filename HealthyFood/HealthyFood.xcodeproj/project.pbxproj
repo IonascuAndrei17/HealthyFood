@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0252445F295C986700C5D4A7 /* HealthyFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252445E295C986700C5D4A7 /* HealthyFoodApp.swift */; };
+		02524461295C986700C5D4A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02524460295C986700C5D4A7 /* ContentView.swift */; };
+		02524463295C986800C5D4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02524462295C986800C5D4A7 /* Assets.xcassets */; };
+		02524466295C986800C5D4A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02524465295C986800C5D4A7 /* Preview Assets.xcassets */; };
+		02524470295C986800C5D4A7 /* HealthyFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252446F295C986800C5D4A7 /* HealthyFoodTests.swift */; };
+		0252447A295C986800C5D4A7 /* HealthyFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02524479295C986800C5D4A7 /* HealthyFoodUITests.swift */; };
+		0252447C295C986800C5D4A7 /* HealthyFoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252447B295C986800C5D4A7 /* HealthyFoodUITestsLaunchTests.swift */; };
+		0252448C295C992400C5D4A7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252448B295C992400C5D4A7 /* ModelData.swift */; };
+		0252448E295C992B00C5D4A7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252448D295C992B00C5D4A7 /* Food.swift */; };
+		02524490295C993700C5D4A7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252448F295C993700C5D4A7 /* ListView.swift */; };
+		02524492295C993E00C5D4A7 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02524491295C993E00C5D4A7 /* ListItem.swift */; };
+		02524494295C9A9F00C5D4A7 /* foodData.json in Resources */ = {isa = PBXBuildFile; fileRef = 02524493295C9A9F00C5D4A7 /* foodData.json */; };
+		02524496295C9DBC00C5D4A7 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02524495295C9DBC00C5D4A7 /* FoodDetail.swift */; };
+		02524498295C9F8A00C5D4A7 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02524497295C9F8A00C5D4A7 /* CategoryHome.swift */; };
+		0252449A295C9F9300C5D4A7 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02524499295C9F9300C5D4A7 /* CategoryRow.swift */; };
+		0252449C295C9F9E00C5D4A7 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0252449B295C9F9E00C5D4A7 /* CategoryItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0252446C295C986800C5D4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02524453295C986700C5D4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0252445A295C986700C5D4A7;
+			remoteInfo = HealthyFood;
+		};
+		02524476295C986800C5D4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02524453295C986700C5D4A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0252445A295C986700C5D4A7;
+			remoteInfo = HealthyFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0252445B295C986700C5D4A7 /* HealthyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0252445E295C986700C5D4A7 /* HealthyFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyFoodApp.swift; sourceTree = "<group>"; };
+		02524460295C986700C5D4A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02524462295C986800C5D4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02524465295C986800C5D4A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0252446B295C986800C5D4A7 /* HealthyFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0252446F295C986800C5D4A7 /* HealthyFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyFoodTests.swift; sourceTree = "<group>"; };
+		02524475295C986800C5D4A7 /* HealthyFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthyFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02524479295C986800C5D4A7 /* HealthyFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyFoodUITests.swift; sourceTree = "<group>"; };
+		0252447B295C986800C5D4A7 /* HealthyFoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyFoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0252448B295C992400C5D4A7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0252448D295C992B00C5D4A7 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		0252448F295C993700C5D4A7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		02524491295C993E00C5D4A7 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		02524493295C9A9F00C5D4A7 /* foodData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodData.json; sourceTree = "<group>"; };
+		02524495295C9DBC00C5D4A7 /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
+		02524497295C9F8A00C5D4A7 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		02524499295C9F9300C5D4A7 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		0252449B295C9F9E00C5D4A7 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02524458295C986700C5D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02524468295C986800C5D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02524472295C986800C5D4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02524452295C986700C5D4A7 = {
+			isa = PBXGroup;
+			children = (
+				0252445D295C986700C5D4A7 /* HealthyFood */,
+				0252446E295C986800C5D4A7 /* HealthyFoodTests */,
+				02524478295C986800C5D4A7 /* HealthyFoodUITests */,
+				0252445C295C986700C5D4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0252445C295C986700C5D4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0252445B295C986700C5D4A7 /* HealthyFood.app */,
+				0252446B295C986800C5D4A7 /* HealthyFoodTests.xctest */,
+				02524475295C986800C5D4A7 /* HealthyFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0252445D295C986700C5D4A7 /* HealthyFood */ = {
+			isa = PBXGroup;
+			children = (
+				0252445E295C986700C5D4A7 /* HealthyFoodApp.swift */,
+				02524488295C98E900C5D4A7 /* View */,
+				02524489295C98F000C5D4A7 /* Model */,
+				0252448A295C990700C5D4A7 /* Data */,
+				02524462295C986800C5D4A7 /* Assets.xcassets */,
+				02524464295C986800C5D4A7 /* Preview Content */,
+			);
+			path = HealthyFood;
+			sourceTree = "<group>";
+		};
+		02524464295C986800C5D4A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02524465295C986800C5D4A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0252446E295C986800C5D4A7 /* HealthyFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				0252446F295C986800C5D4A7 /* HealthyFoodTests.swift */,
+			);
+			path = HealthyFoodTests;
+			sourceTree = "<group>";
+		};
+		02524478295C986800C5D4A7 /* HealthyFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02524479295C986800C5D4A7 /* HealthyFoodUITests.swift */,
+				0252447B295C986800C5D4A7 /* HealthyFoodUITestsLaunchTests.swift */,
+			);
+			path = HealthyFoodUITests;
+			sourceTree = "<group>";
+		};
+		02524488295C98E900C5D4A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02524460295C986700C5D4A7 /* ContentView.swift */,
+				0252448F295C993700C5D4A7 /* ListView.swift */,
+				02524491295C993E00C5D4A7 /* ListItem.swift */,
+				02524495295C9DBC00C5D4A7 /* FoodDetail.swift */,
+				02524497295C9F8A00C5D4A7 /* CategoryHome.swift */,
+				02524499295C9F9300C5D4A7 /* CategoryRow.swift */,
+				0252449B295C9F9E00C5D4A7 /* CategoryItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02524489295C98F000C5D4A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0252448B295C992400C5D4A7 /* ModelData.swift */,
+				0252448D295C992B00C5D4A7 /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0252448A295C990700C5D4A7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02524493295C9A9F00C5D4A7 /* foodData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0252445A295C986700C5D4A7 /* HealthyFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0252447F295C986800C5D4A7 /* Build configuration list for PBXNativeTarget "HealthyFood" */;
+			buildPhases = (
+				02524457295C986700C5D4A7 /* Sources */,
+				02524458295C986700C5D4A7 /* Frameworks */,
+				02524459295C986700C5D4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthyFood;
+			productName = HealthyFood;
+			productReference = 0252445B295C986700C5D4A7 /* HealthyFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0252446A295C986800C5D4A7 /* HealthyFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02524482295C986800C5D4A7 /* Build configuration list for PBXNativeTarget "HealthyFoodTests" */;
+			buildPhases = (
+				02524467295C986800C5D4A7 /* Sources */,
+				02524468295C986800C5D4A7 /* Frameworks */,
+				02524469295C986800C5D4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0252446D295C986800C5D4A7 /* PBXTargetDependency */,
+			);
+			name = HealthyFoodTests;
+			productName = HealthyFoodTests;
+			productReference = 0252446B295C986800C5D4A7 /* HealthyFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02524474295C986800C5D4A7 /* HealthyFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02524485295C986800C5D4A7 /* Build configuration list for PBXNativeTarget "HealthyFoodUITests" */;
+			buildPhases = (
+				02524471295C986800C5D4A7 /* Sources */,
+				02524472295C986800C5D4A7 /* Frameworks */,
+				02524473295C986800C5D4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02524477295C986800C5D4A7 /* PBXTargetDependency */,
+			);
+			name = HealthyFoodUITests;
+			productName = HealthyFoodUITests;
+			productReference = 02524475295C986800C5D4A7 /* HealthyFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02524453295C986700C5D4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0252445A295C986700C5D4A7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0252446A295C986800C5D4A7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0252445A295C986700C5D4A7;
+					};
+					02524474295C986800C5D4A7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0252445A295C986700C5D4A7;
+					};
+				};
+			};
+			buildConfigurationList = 02524456295C986700C5D4A7 /* Build configuration list for PBXProject "HealthyFood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02524452295C986700C5D4A7;
+			productRefGroup = 0252445C295C986700C5D4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0252445A295C986700C5D4A7 /* HealthyFood */,
+				0252446A295C986800C5D4A7 /* HealthyFoodTests */,
+				02524474295C986800C5D4A7 /* HealthyFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02524459295C986700C5D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02524466295C986800C5D4A7 /* Preview Assets.xcassets in Resources */,
+				02524463295C986800C5D4A7 /* Assets.xcassets in Resources */,
+				02524494295C9A9F00C5D4A7 /* foodData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02524469295C986800C5D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02524473295C986800C5D4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02524457295C986700C5D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02524492295C993E00C5D4A7 /* ListItem.swift in Sources */,
+				02524461295C986700C5D4A7 /* ContentView.swift in Sources */,
+				02524496295C9DBC00C5D4A7 /* FoodDetail.swift in Sources */,
+				0252448E295C992B00C5D4A7 /* Food.swift in Sources */,
+				02524498295C9F8A00C5D4A7 /* CategoryHome.swift in Sources */,
+				02524490295C993700C5D4A7 /* ListView.swift in Sources */,
+				0252445F295C986700C5D4A7 /* HealthyFoodApp.swift in Sources */,
+				0252449A295C9F9300C5D4A7 /* CategoryRow.swift in Sources */,
+				0252449C295C9F9E00C5D4A7 /* CategoryItem.swift in Sources */,
+				0252448C295C992400C5D4A7 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02524467295C986800C5D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02524470295C986800C5D4A7 /* HealthyFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02524471295C986800C5D4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0252447C295C986800C5D4A7 /* HealthyFoodUITestsLaunchTests.swift in Sources */,
+				0252447A295C986800C5D4A7 /* HealthyFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0252446D295C986800C5D4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0252445A295C986700C5D4A7 /* HealthyFood */;
+			targetProxy = 0252446C295C986800C5D4A7 /* PBXContainerItemProxy */;
+		};
+		02524477295C986800C5D4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0252445A295C986700C5D4A7 /* HealthyFood */;
+			targetProxy = 02524476295C986800C5D4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0252447D295C986800C5D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0252447E295C986800C5D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02524480295C986800C5D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthyFood/Preview Content\"";
+				DEVELOPMENT_TEAM = HYDLQRL6P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreiionascu.HealthyLife.HealthyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02524481295C986800C5D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthyFood/Preview Content\"";
+				DEVELOPMENT_TEAM = HYDLQRL6P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreiionascu.HealthyLife.HealthyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02524483295C986800C5D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYDLQRL6P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreiionascu.HealthyLife.HealthyFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthyFood";
+			};
+			name = Debug;
+		};
+		02524484295C986800C5D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYDLQRL6P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreiionascu.HealthyLife.HealthyFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthyFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthyFood";
+			};
+			name = Release;
+		};
+		02524486295C986800C5D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYDLQRL6P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreiionascu.HealthyLife.HealthyFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthyFood;
+			};
+			name = Debug;
+		};
+		02524487295C986800C5D4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HYDLQRL6P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreiionascu.HealthyLife.HealthyFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthyFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02524456295C986700C5D4A7 /* Build configuration list for PBXProject "HealthyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0252447D295C986800C5D4A7 /* Debug */,
+				0252447E295C986800C5D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0252447F295C986800C5D4A7 /* Build configuration list for PBXNativeTarget "HealthyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02524480295C986800C5D4A7 /* Debug */,
+				02524481295C986800C5D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02524482295C986800C5D4A7 /* Build configuration list for PBXNativeTarget "HealthyFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02524483295C986800C5D4A7 /* Debug */,
+				02524484295C986800C5D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02524485295C986800C5D4A7 /* Build configuration list for PBXNativeTarget "HealthyFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02524486295C986800C5D4A7 /* Debug */,
+				02524487295C986800C5D4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02524453295C986700C5D4A7 /* Project object */;
+}

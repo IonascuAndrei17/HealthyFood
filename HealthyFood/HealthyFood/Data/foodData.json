@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1000,
+        "name": "DishPhoto",
+        "ingredients": "450g Zahar",
+        "isFeatured": true,
+        "category": "Pui",
+        "imageName": "dishPhoto"
+    },
+    {
+        "id": 1001,
+        "name": "Ciorba de burta",
+        "ingredients": "500 g smantana, 1,5 kg burta de vita, 2 bucati rasol de vita, cateva bucati gogosar murat, 5 linguri otet, 1 capatana mare usturoi, 1 radacina pastarnac, 1/2 radacina telina, 6 galbenusuri, 4 morcovi, 4 cepe",
+        "isFeatured": true,
+        "category": "Vita",
+        "imageName": "ciorba-de-burta"
+    },
+    {
+        "id": 1002,
+        "name": "Ciorba de perisoare",
+        "ingredients": "    4 L de apa + 2 lingurite de sare, 2-3 morcovi, 1-2 radacini de patrunjel, 1 radacina de pastarnac, 1 felie de radacina de telina, 2 linguri de ulei, 1 ceapa mare,500 ml bulion de rosii,1 lingurita rasa de cimbru uscat,500 g carne tocata de porc (sau amestec cu vita), 50 g orez (cam 2 linguri), 1 ceapa mica tocata, 1 lingura de ulei, sare, piper proaspat macinat, 1 legatura de verdeată tocata (patrunjel verde, marar), 1 lingurita cimbru uscat, tocat, 1 albus crud",
+        "isFeatured": false,
+        "category": "Porc",
+        "imageName": "ciorba-de-perisoare"
+    }
+]
